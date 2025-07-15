@@ -10,11 +10,6 @@ This project is a basic analytics API built using FastAPI that exposes both publ
 - **Error Handling:** When API key authentication fails, return an appropriate status code (`401 Unauthorized`) and a standardized error response model.
 - **No Unnecessary Features:** Do **not** implement persistent storage, user registration, logging, or additional endpoints.
 
-## Files Provided
-
-- `main.py`: The FastAPI application, routes, and authentication logic.
-- `models.py`: Pydantic response models for successful reports and error responses.
-- `Dockerfile`, `install.sh`, `run.sh`: For environment provisioning and deployment.
 
 ## What You Need to Do
 
